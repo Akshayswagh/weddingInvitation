@@ -71,7 +71,9 @@ const FooterSection = () => {
       </div>
 
        <div className="reveal mt-4 text-primary-foreground/30 font-body text-xs" style={{ transitionDelay: "0.9s" }}>
-          Website designed by <a href="https://akshayswagh.netlify.app/" className="hover:text-gold transition-colors underline">Akshay Wagh</a> | <a href="https://akshayswagh.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors underline">Hire for your special occasion</a>
+          Made with  <a href="https://akshayswagh.netlify.app/" className="hover:text-gold transition-colors ">❤️</a> | <a href="https://akshayswagh.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors ">Hire for your special occasion</a>
+           <br /> Design by  <b>
+          Roshan Tikar  </b> 
         </div>
     </footer>
   );
