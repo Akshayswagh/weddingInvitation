@@ -11,6 +11,7 @@ const events = [
     date: "२७ एप्रिल २०२६, सोमवार",
     time: "सायंकाळी ८:०० वाजता ",
     venue: "आमचे राहते घर काजेगांव",
+    venueLink: ``,
     image: haldiImg,
   },
     {
@@ -19,6 +20,7 @@ const events = [
     date: "२८ एप्रिल २०२६, मंगळवार ",
     time: "सायंकाळी ८:०० वाजता ",
     venue: "आमच्या राहत्या घरी काजेगांव ला राहील",
+    venueLink: ``,
     image: receptionImg,
   },
   {
@@ -27,6 +29,7 @@ const events = [
     date: "२९ एप्रिल २०२६, बुधवार",
     time: "सायंकाळी ७:०० वाजता",
     venue: "अनंतराव भागवत मंगल कार्यालय संताजी नगर भागवत  वाडी, तेल्हारा",
+    venueLink: "https://maps.app.goo.gl/ZLQB4CgVern9QQbs9",
     image: weddingImg,
   },
 

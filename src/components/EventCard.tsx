@@ -4,11 +4,12 @@ interface EventCardProps {
   date: string;
   time: string;
   venue: string;
+  venueLink: string;
   image: string;
   delay?: number;
 }
 
-const EventCard = ({ emoji, title, date, time, venue, image, delay = 0 }: EventCardProps) => {
+const EventCard = ({ emoji, title, date, time, venue, venueLink, image, delay = 0 }: EventCardProps) => {
   return (
     <div
       className="reveal-scale ornate-frame overflow-hidden bg-card"
@@ -31,9 +32,9 @@ const EventCard = ({ emoji, title, date, time, venue, image, delay = 0 }: EventC
           <p className="flex items-center justify-center gap-2">
             🕐 <span>{time}</span>
           </p>
-          <p className="flex items-center justify-center gap-2">
-            📍 <span>{venue}</span>
-          </p>
+          <a href={venueLink} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 hover:text-primary hover:underline transition-colors">
+            📍 <span>{venue}</span> <span className="text-lg">➡️</span>
+          </a>
         </div>
       </div>
     </div>

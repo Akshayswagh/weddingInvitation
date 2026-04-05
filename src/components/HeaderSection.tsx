@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
-import ganeshImg from "@/assets/ganesh.png";
+// import ganeshImg from "@/assets/ganesh.png";
+import ganeshImg from "@/assets/ganapati bappa img.png";
 import shivajiImg from "@/assets/image-removebg-preview.png";
 // import shivajiImg from "@/assets/shivaji.png";
 import rangoli from "@/assets/rangoli.png";

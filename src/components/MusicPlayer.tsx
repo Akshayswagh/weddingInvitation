@@ -7,7 +7,7 @@ const MusicPlayer = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // Free shehnai music URL
-  const musicUrl = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3";
+  const musicUrl = "@/assets/website sound.mpeg";
 
   const togglePlay = () => {
     if (!audioRef.current) return;
