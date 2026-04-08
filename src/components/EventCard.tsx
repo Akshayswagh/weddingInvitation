@@ -33,7 +33,7 @@ const EventCard = ({ emoji, title, date, time, venue, venueLink, image, delay = 
             🕐 <span>{time}</span>
           </p>
           <a href={venueLink} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 hover:text-primary hover:underline transition-colors">
-            📍 <span>{venue}</span> <span className="text-lg">➡️</span>
+            📍 <span>{venue}</span> <span className="text-lg animate-slide-left-right">➡️</span>
           </a>
         </div>
       </div>

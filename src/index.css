@@ -155,9 +155,14 @@
   50% { box-shadow: 0 0 40px hsl(var(--gold) / 0.6); }
 }
 
-@keyframes rotate-slow {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@keyframes slide-left-right {
+  0% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  100% { transform: translateX(-5px); }
+}
+
+.animate-slide-left-right {
+  animation: slide-left-right 1.5s ease-in-out infinite;
 }
 
 .animate-float-petal {
