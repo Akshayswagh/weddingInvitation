@@ -21,10 +21,10 @@ const BrideGroomSection = () => {
           </div>
           <div className="mt-6 space-y-1">
             <p className="font-accent text-xl md:text-2xl gold-text">
-           चि. सौ. का. वर्षा  &  चि. वैभव    
+          चि. वैभव  &   चि. सौ. का. वर्षा    
             </p>
             <p className="text-muted-foreground font-body text-sm md:text-base">
-                श्रीमती जिजाबाई पांडुरंग तुकाराम घुंगळ यांची कन्या & श्रीमती सविताबाई संतोष नारायण टिकार यांचे जेष्ठ  चिरंजीव
+                श्रीमती सविताबाई संतोष नारायण टिकार यांचे जेष्ठ  चिरंजीव & श्रीमती जिजाबाई पांडुरंग तुकाराम घुंगळ यांची कन्या 
             </p>
           </div>
         </div>
