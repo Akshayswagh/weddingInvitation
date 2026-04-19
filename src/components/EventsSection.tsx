@@ -1,7 +1,7 @@
 import EventCard from "./EventCard";
-import weddingImg from "@/assets/wedding-venue.jpg";
-import haldiImg from "@/assets/halad.jpeg";
-import receptionImg from "@/assets/reception.jpg";
+import weddingImg from "@/assets/lgna.jpeg";
+import haldiImg from "@/assets/haldi.jpeg";
+import receptionImg from "@/assets/barat.png";
 import bgSaffron from "@/assets/bg-pattern-saffron.jpg";
 
 const events = [
@@ -11,7 +11,7 @@ const events = [
     date: "२७ एप्रिल २०२६, सोमवार",
     time: "सायंकाळी ६:०० वाजता ",
     venue: "आमचे राहते घर काजेगांव",
-    venueLink: ``,
+    venueLink: `https://www.google.com/maps?q=20.9950383,76.5966567&z=17&hl=en`,
     image: haldiImg,
   },
     {
@@ -20,7 +20,7 @@ const events = [
     date: "२८ एप्रिल २०२६, मंगळवार ",
     time: "सकाळी ११:३० पासून आपल्या आगमनापर्यंत",
     venue: "आमच्या राहत्या घरी काजेगांव ला राहील",
-    venueLink: ``,
+    venueLink: `https://www.google.com/maps?q=20.9950383,76.5966567&z=17&hl=en`,
     image: receptionImg,
   },
   {

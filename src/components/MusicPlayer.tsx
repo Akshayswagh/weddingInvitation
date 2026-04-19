@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Volume2, VolumeX, Music } from "lucide-react";
+import soundFile from "@/assets/sound.mp3";
 
 const MusicPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -7,7 +8,7 @@ const MusicPlayer = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // Free shehnai music URL
-  const musicUrl = "@/assets/website sound.mpeg";
+  const musicUrl = soundFile;
 
   const togglePlay = () => {
     if (!audioRef.current) return;

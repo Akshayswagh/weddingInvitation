@@ -24,7 +24,7 @@ const FooterSection = () => {
       <div className="relative z-10 max-w-3xl mx-auto">
         {/* Blessing */}
         <div className="reveal font-accent text-2xl md:text-3xl text-primary-foreground mb-4 leading-relaxed italic">
-          "आपल्या पावलांनी सजेल हा सोहळा, आपल्या आशीर्वादाने फुलेल हा नवा संसार 🙏"
+          "आपली उपस्थिती हीच आमच्यासाठी आशीर्वाद."
         </div>
 
         {/* Guest Name */}
