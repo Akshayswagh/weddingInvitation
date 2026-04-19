@@ -1,7 +1,7 @@
 import EventCard from "./EventCard";
 import weddingImg from "@/assets/lgna.jpeg";
 import haldiImg from "@/assets/haldi.jpeg";
-import receptionImg from "@/assets/barat.png";
+import receptionImg from "@/assets/image.png";
 import bgSaffron from "@/assets/bg-pattern-saffron.jpg";
 
 const events = [
